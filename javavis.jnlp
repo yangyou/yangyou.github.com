@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" 
+        codebase="JavaVis"
+        href="javavis.jnlp">
+    <information>
+        <title>Java Vis</title>
+        <vendor>www.distributed.net</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="JavaVis.jar" main="true" />
+
+    </resources>
+    <application-desc
+         name="JavaVis Application"
+         main-class="net.distributed.javavis.JavaVis">
+     </application-desc>
+     <update check="background"/>
+</jnlp>
+ 
